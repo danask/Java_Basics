@@ -1,12 +1,12 @@
 package ask.helloworld.high;
 
+// Changed in Hub
 
-
-// RunnableÀ» ±¸ÇöÇÏ´Â DaemonThreadÅ¬·¡½º¸¦ ÀÛ¼º
+// Runnableì„ êµ¬í˜„í•˜ëŠ” DaemonThreadí´ë˜ìŠ¤ë¥¼ ì‘ì„±
 public class DaemonThread implements Runnable 
 {
 
-	// ¹«ÇÑ·çÇÁ¾È¿¡¼­ 0.5ÃÊ¾¿ ½¬¸é¼­ µ¥¸ó¾²·¹µå°¡ ½ÇÇàÁßÀÔ´Ï´Ù¸¦ Ãâ·ÂÇÏµµ·Ï run()¸Ş¼Òµå¸¦ ÀÛ¼º
+	// ë¬´í•œë£¨í”„ì•ˆì—ì„œ 0.5ì´ˆì”© ì‰¬ë©´ì„œ ë°ëª¬ì“°ë ˆë“œê°€ ì‹¤í–‰ì¤‘ì…ë‹ˆë‹¤ë¥¼ ì¶œë ¥í•˜ë„ë¡ run()ë©”ì†Œë“œë¥¼ ì‘ì„±
     @Override
     public void run() 
     {
@@ -21,7 +21,7 @@ public class DaemonThread implements Runnable
             catch (InterruptedException e) 
             {
                 e.printStackTrace();
-                break; //Exception¹ß»ı½Ã while ¹® ³ª°¡±â  
+                break; //Exceptionë°œìƒì‹œ while ë¬¸ ë‚˜ê°€ê¸°  
             }
         }
     }

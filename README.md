@@ -1,3 +1,4 @@
 # Java_Basics
 
-Daniel_Developer : member
+Owner : Daniel_Admin
+Collabrative Member : Daniel_Developer

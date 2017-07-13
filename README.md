@@ -1,3 +1,4 @@
 # Java_Basics
 
-Daniel_Developer : member
+  - Daniel_Admin
+  - Daniel_Developer
